@@ -1,0 +1,26 @@
+﻿<Window x:Class="AnimationLesson.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AnimationLesson"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <!--<Ellipse HorizontalAlignment="Left" Height="100" Margin="147,117,0,0" Fill="CornflowerBlue" Stroke="Black" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <TranslateTransform X="20" Y="20"/>
+                    <RotateTransform CenterX="10" CenterY="15" Angle="85"/>
+                    <SkewTransform CenterX="30" CenterY="60" AngleX="30" AngleY="45"/>
+                    <ScaleTransform ScaleX="0.5" ScaleY="0.5"/>
+                    <MatrixTransform Matrix="5 5 10 15 5 5"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+        </Ellipse>-->
+        <Rectangle  x:Name="loadRectangle" Fill="Green" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="30"/>
+        <Button x:Name="loadButton" Click="Load" Content="Загрузить" HorizontalAlignment="Center" Margin="0,59,0,0" VerticalAlignment="Top" Width="104" RenderTransformOrigin="0.549,0.522"/>
+        <ProgressBar HorizontalAlignment="Center" IsIndeterminate="True" Height="17" Margin="0,121,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Canvas>
+</Window>
